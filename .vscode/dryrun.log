@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/kimwang0906/Desktop/P.Files/x86_os_writing'
+nasm -f bin boot.asm -o boot.bin
+qemu-system-x86_64 boot.bin
+make: Leaving directory '/home/kimwang0906/Desktop/P.Files/x86_os_writing'
+ 
