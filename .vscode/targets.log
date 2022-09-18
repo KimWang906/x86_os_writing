@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Aug 31 14:40:55 2022
+# Make data base, printed on Tue Sep 13 23:55:44 2022
 
 # Variables
 
@@ -53,11 +53,11 @@ XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/d
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = /home/kimwang0906/.config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
+VSCODE_CODE_CACHE_PATH = /home/kimwang0906/.config/Code/CachedData/784b0177c56c607789f9638da7b6bf3230d47a8c
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.KV7PR1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.UQVRS1
 # default
 .LOADED := 
 # default
@@ -91,13 +91,13 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 9834
+VSCODE_PID = 5573
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/KimWang09:@/tmp/.ICE-unix/3891,unix/KimWang09:/tmp/.ICE-unix/3891
+SESSION_MANAGER = local/KimWang09:@/tmp/.ICE-unix/4397,unix/KimWang09:/tmp/.ICE-unix/4397
 # automatic
 *F = $(notdir $*)
 # environment
@@ -107,7 +107,7 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # environment
-VSCODE_NLS_CONFIG = {"locale":"ko","availableLanguages":{"*":"ko"},"_languagePackId":"d4733d4bd5138ffb2c9d12a76b2e9102.ko","_translationsConfigFile":"/home/kimwang0906/.config/Code/clp/d4733d4bd5138ffb2c9d12a76b2e9102.ko/tcf.json","_cacheRoot":"/home/kimwang0906/.config/Code/clp/d4733d4bd5138ffb2c9d12a76b2e9102.ko","_resolvedLanguagePackCoreLocation":"/home/kimwang0906/.config/Code/clp/d4733d4bd5138ffb2c9d12a76b2e9102.ko/e4503b30fc78200f846c62cf8091b76ff5547662","_corruptedFile":"/home/kimwang0906/.config/Code/clp/d4733d4bd5138ffb2c9d12a76b2e9102.ko/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"ko","availableLanguages":{"*":"ko"},"_languagePackId":"840a27127db6acd15fbd79cf58b9090c.ko","_translationsConfigFile":"/home/kimwang0906/.config/Code/clp/840a27127db6acd15fbd79cf58b9090c.ko/tcf.json","_cacheRoot":"/home/kimwang0906/.config/Code/clp/840a27127db6acd15fbd79cf58b9090c.ko","_resolvedLanguagePackCoreLocation":"/home/kimwang0906/.config/Code/clp/840a27127db6acd15fbd79cf58b9090c.ko/784b0177c56c607789f9638da7b6bf3230d47a8c","_corruptedFile":"/home/kimwang0906/.config/Code/clp/840a27127db6acd15fbd79cf58b9090c.ko/corrupted.info","_languagePackSupport":true}
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
@@ -143,7 +143,7 @@ LC_MONETARY = ko_KR.UTF-8
 # environment
 LC_TIME = ko_KR.UTF-8
 # environment
-INVOCATION_ID = 8ea2ee7d2d3e4bdcb3e98fbf6822dd06
+INVOCATION_ID = f47405967a5d401cba13b31f10dd3026
 # environment
 USERNAME = kimwang0906
 # environment
@@ -181,7 +181,7 @@ PLATFORMIO_PATH = /home/kimwang0906/.platformio/python3/bin:/home/kimwang0906/.p
 # makefile
 .DEFAULT_GOAL := all
 # environment
-SYSTEMD_EXEC_PID = 3909
+SYSTEMD_EXEC_PID = 4424
 # environment
 DISPLAY = :0
 # environment
@@ -191,11 +191,11 @@ GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
 # environment
-MANAGERPID = 3744
+MANAGERPID = 4279
 # environment
 LC_MEASUREMENT = ko_KR.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 9834
+GIO_LAUNCHED_DESKTOP_FILE_PID = 5573
 # environment
 _ = /usr/share/code/code
 # environment
@@ -203,13 +203,13 @@ LC_PAPER = ko_KR.UTF-8
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
-JOURNAL_STREAM = 8:34614
+JOURNAL_STREAM = 8:36457
 # environment
 XDG_SESSION_CLASS = user
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-PLATFORMIO_IDE = 2.5.2
+PLATFORMIO_IDE = 2.5.4
 # environment
 HOME = /home/kimwang0906
 # environment
@@ -217,7 +217,7 @@ QT_IM_MODULE = nimf
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-11747b22-1.70.2-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-11747b22-1.71.0-main.sock
 # environment
 IM_CONFIG_PHASE = 1
 # environment
@@ -277,6 +277,7 @@ all:
 #  Needs to be updated (-q is set).
 # automatic
 # @ := all
+ 
 # automatic
 # * := 
 # automatic
@@ -288,7 +289,6 @@ all:
 # automatic
 # ^ := 
 # automatic
- 
 # ? := 
 # automatic
 # | := 
@@ -318,6 +318,6 @@ all:
 # strcache performance: lookups = 21 / hit rate = 33%
 # hash-table stats:
 # Load=14/8192=0%, Rehash=0, Collisions=0/21=0%
-# Finished Make data base on Wed Aug 31 14:40:55 2022
+# Finished Make data base on Tue Sep 13 23:55:44 2022
 
  
